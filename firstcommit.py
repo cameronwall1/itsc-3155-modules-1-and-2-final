@@ -185,3 +185,20 @@ def splitString ():
 
 splitString ()
 
+# First ten exercises are above this line - Module 1 beginner exercies
+# _________________________________________________________
+# _________________________________________________________
+# First create git python exercies below this
+
+def backwardsString () :
+    initialString = input ("Enter a string: ")
+    stringList = list(initialString)
+    reversedString = ""
+    for i in reversed(stringList) :
+        reversedString += i
+    print (reversedString)
+
+# backwardsString ()
+
+
+
