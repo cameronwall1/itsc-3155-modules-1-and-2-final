@@ -52,7 +52,7 @@ def findAverage ():
     
 # _________________________________________________________
 
-findAverage()
+# findAverage()
 
 def commonValues () :
     print ("Please enter 5 integers")
@@ -80,7 +80,7 @@ def commonValues () :
         print (mutualValues)
         
 
-commonValues()
+# commonValues()
 
 # _________________________________________________________
 
@@ -98,7 +98,7 @@ def grid () :
             else:
               print(0, end = " ")
         print()
-grid ()
+# grid ()
 
 # _________________________________________________________
 
@@ -119,7 +119,7 @@ def getEvenNumbers () :
     print (even_list)
 
 
-getEvenNumbers()
+# getEvenNumbers()
 
 # _________________________________________________________
 
@@ -141,7 +141,7 @@ def appearsOnce () :
     print (singleValue)
 
 
-appearsOnce()
+# appearsOnce()
             
 # _________________________________________________________
 
@@ -152,7 +152,7 @@ def createString () :
     oneString = (words[0] + " " + words[1] + " "  + words[2] + " "  + words[3] + " "  + words[4])
     print (oneString)
 
-createString()
+# createString()
 
 
 
@@ -183,10 +183,12 @@ def splitString ():
     print ("this is the final list: ", end ="")
     print (finallist)
 
-splitString ()
+# splitString ()
 
 # First ten exercises are above this line - Module 1 beginner exercies
 # _________________________________________________________
+
+
 # _________________________________________________________
 # First create git python exercies below this
 
@@ -200,5 +202,24 @@ def backwardsString () :
 
 # backwardsString ()
 
+# _________________________________________________________
+# Second create git python exercies below this
 
+def shiftString () :
+    initialString = input ("Enter a string: ")
+    uppercaseletters = ""
+    lowercaseletters = ""
+    stringList = list (initialString)
+    for i in initialString :
+        if i.isupper() :
+            uppercaseletters += i
+        elif i == " " :
+            print ("", end = "")
+        else :
+            lowercaseletters += i
+    combinedString = lowercaseletters + uppercaseletters
+    
+    print (combinedString)
+
+# shiftString()
 
